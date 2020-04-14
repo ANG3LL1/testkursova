@@ -1,0 +1,43 @@
+.map__image{
+
+  width: 100%;
+  float: central;
+
+}
+
+.map__image path{
+fill: #a4ced2;
+stroke: #FFF;
+stroke-width:1px;
+transition: fill 0.3s;
+}
+
+.map__image path:hover{
+fill: black;
+
+}
+
+.btn-group button {
+  background-color: #4863A0; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
